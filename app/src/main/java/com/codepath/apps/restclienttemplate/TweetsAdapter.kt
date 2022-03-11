@@ -58,6 +58,8 @@ class TweetsAdapter (val tweets: ArrayList<Tweet>):RecyclerView.Adapter<TweetsAd
         val ivProfileImage = itemView.findViewById<ImageView>(R.id.ivProfileImage)
         val tvUserName = itemView.findViewById<TextView>(R.id.tvUsername)
         val tvTweetBody = itemView.findViewById<TextView>(R.id.tvTweetBody)
+        val tvTweetTime = itemView.findViewById<TextView>(R.id.tvTweetTime)
+
     }
 
 }
