@@ -7,7 +7,7 @@
     tools:context=".ComposeActivity">
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/etTweetCompose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,5 +27,5 @@
         android:layout_margin="20dp"
         android:text="Tweet"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+        app:layout_constraintTop_toBottomOf="@+id/etTweetCompose" />
 </androidx.constraintlayout.widget.ConstraintLayout>
